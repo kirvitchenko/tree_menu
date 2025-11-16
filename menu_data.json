@@ -1,0 +1,129 @@
+[
+{
+  "model": "menu.menu",
+  "pk": 1,
+  "fields": {
+    "name": "Главное меню"
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 1,
+  "fields": {
+    "name": "Главная",
+    "url": "/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 2,
+  "fields": {
+    "name": "О компании",
+    "url": "/about/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 3,
+  "fields": {
+    "name": "Услуги",
+    "url": "/services/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 3
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 4,
+  "fields": {
+    "name": "Веб-разработка",
+    "url": "/services/web/",
+    "named_url": "",
+    "parent": 3,
+    "menu": 1,
+    "order": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 5,
+  "fields": {
+    "name": "Дизайн",
+    "url": "/services/design/",
+    "named_url": "",
+    "parent": 3,
+    "menu": 1,
+    "order": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 6,
+  "fields": {
+    "name": "Блог",
+    "url": "/blog/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 4
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 7,
+  "fields": {
+    "name": "Новости",
+    "url": "/blog/news/",
+    "named_url": "",
+    "parent": 6,
+    "menu": 1,
+    "order": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 8,
+  "fields": {
+    "name": "Статьи",
+    "url": "/blog/articles/",
+    "named_url": "",
+    "parent": 6,
+    "menu": 1,
+    "order": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 9,
+  "fields": {
+    "name": "Контакты",
+    "url": "/contacts/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 5
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 10,
+  "fields": {
+    "name": "Поддержка",
+    "url": "/support/",
+    "named_url": "",
+    "parent": null,
+    "menu": 1,
+    "order": 6
+  }
+}
+]

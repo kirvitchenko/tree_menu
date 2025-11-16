@@ -1,0 +1,9 @@
+{% load menu_extras %}
+
+<ul class="menu">
+    {% for item_id, item_data in items.items %}
+        {% if item_data.item.parent == None %}
+            {% include "menu/menu_item.html" with item_data=item_data items=items %}
+        {% endif %}
+    {% endfor %}
+</ul>
